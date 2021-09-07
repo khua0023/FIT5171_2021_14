@@ -142,45 +142,6 @@ public class AppSystemTest {
         JWebUnit.assertTextNotPresent("Welcome back: Jane Who!");
     }
 
-//    @Test
-//    public void shouldNotRecreateRocket(){
-//        JWebUnit.beginAt("/");
-//
-//        JWebUnit.gotoPage("lsps/create");
-//        JWebUnit.assertTextPresent("Launch Service Provider Creation");
-//
-//        JWebUnit.setTextField("name", "SpaceX");
-//        JWebUnit.setTextField("yearFounded", "2002");
-//        JWebUnit.setTextField("country", "USA");
-//        JWebUnit.setTextField("headquarters", "California");
-//
-//        JWebUnit.submit();
-//
-//        JWebUnit.gotoPage("rockets/create");
-//        JWebUnit.assertTextPresent("Rocket Creation");
-//
-//        JWebUnit.setTextField("name", "Falcon9");
-//        JWebUnit.setTextField("manufacturer", "SpaceX");
-//        JWebUnit.selectOptionByValue("manufacturer","SpaceX");
-//
-//        JWebUnit.setTextField("country", "USA");
-//        JWebUnit.setTextField("firstYearFlight", "2020");
-//
-//        JWebUnit.submit();
-//
-//        JWebUnit.gotoPage("rockets/create");
-//        JWebUnit.assertTextPresent("Rocket Creation");
-//
-//        JWebUnit.setTextField("name", "Falcon9");
-//        JWebUnit.setTextField("manufacturer", "SpaceX");
-//        JWebUnit.selectOptionByValue("manufacturer","SpaceX");
-//        JWebUnit.setTextField("country", "USA");
-//        JWebUnit.setTextField("firstYearFlight", "2020");
-//
-//        JWebUnit.submit();
-//
-//        JWebUnit.assertTextPresent("Rocket has exist");
-//    }
 
     @Test
     public void shouldNotRecreateLsp(){
